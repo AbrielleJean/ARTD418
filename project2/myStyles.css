@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.txt {
+    position: relative;
+    color: cadetblue;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.row {
+    height: 40px;
+    margin: 5px;
+}
+
+.row1 {
+    height: 40px;
+    background-color: aliceblue;
+    margin: 5px;
+}
+
+.image {
+    opacity: 0.75;
+}
+
+h2 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: cadetblue
+}
