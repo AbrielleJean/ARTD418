@@ -7,9 +7,9 @@
 	//scale: 1.05
 	
 //})
-let props = document.querySelectorAll(".bubble")
+
 anime({
-    targets: props,
+    targets: ".bubble",
     translateX: {
         value: 390,
         duration: 800
