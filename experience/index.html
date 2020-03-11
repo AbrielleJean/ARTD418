@@ -20,7 +20,7 @@
 
 <body style="background-color: azure">
 	
-	<button onclick="myFunction()">CLICK HERE</button>
+	<button class="click" onclick="myFunction()">CLICK HERE</button>
     
 		<div id="text">
 
@@ -75,6 +75,17 @@
 </svg>
 
 		</div>
+    
+    <script>
+    function myFunction() {
+  var x = document.getElementById("text");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+    </script>
 	
 <script src="src/script copy.js"></script>
 	
