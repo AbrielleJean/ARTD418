@@ -38,12 +38,12 @@ function setup() {
         let tmp = anime({
           targets: pathEls,
           strokeDashoffset: [offset, 0],
-          duration: anime.random(1000, 3000),
+          duration: anime.random(1000, 4000),
           delay: anime.random(0, 3000),
           loop: true,
           direction: 'alternate',
           easing: 'easeInOutSine',
-          autoplay: false
+          autoplay: true
         });
 
         tmp.play()
