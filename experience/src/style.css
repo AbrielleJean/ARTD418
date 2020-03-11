@@ -21,3 +21,10 @@ button:hover{
 #text{
     margin-top: 150px
 }
+
+.home{
+    font-family: muli;
+    color: deeppink;
+    text-decoration: none;
+    
+}
