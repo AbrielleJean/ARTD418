@@ -41,10 +41,21 @@ p {
 }
 
 #b {
-	background-image: url("../images/theater.jpg")
+	background-image: url("../../images/theater.jpg");
 }
 
 
 #c {
 	background-image: url("../images/sato.jpg")
+}
+
+a {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: midnightblue;
+	right: 20px;
+}
+
+a:hover {
+	text-decoration: none;
+	color: darkslategray
 }
