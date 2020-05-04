@@ -50,36 +50,6 @@ section {
 	display: none
 }
 
-#2 {
-	margin-top: 150px;
-	margin-right: 75px
-}
-
-#a {
-	background-image: url("../images/dorm.jpg");
-}
-
-#b {
-	background-image: url("../../images/theater.jpg");
-}
-
-
-#c {
-	background-image: url("../images/sato.jpg")
-}
-
-a {
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-	color: midnightblue;
-	right: 20px;
-}
-
-a:hover {
-	text-decoration: none;
-	color: darkslategray
-}
-
-/* Place the navbar at the bottom of the page, and make it stick */
 .navbar {
   background-color: midnightblue;
   overflow: hidden;
@@ -89,6 +59,9 @@ a:hover {
 }
 
 .navbar a {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: midnightblue;
+	right: 20px;
   float: right;
   display: block;
   color: #FFFCEE;
