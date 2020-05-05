@@ -1,24 +1,77 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.links{
-    font-family: 'muli';
-    color: deeppink;
-    font-size: 20px;
-    padding: 10px;
+.module {
+	position: relative;
+	overflow: hidden
+}
+.module img {
+	position: absolute;
+	opacity: .2;
+	width: 100%;
 }
 
-.links:hover{
-    color: darkblue
+.sidenav {
+  height: 100%; 
+  width: 300px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: #D4FFE6; 
+  overflow-x: hidden; 
+  padding-top: 20px;
+}
+
+
+.sidenav a {
+	margin-top: 100px;
+	margin-left: 20px;
+  padding: 6px 8px 6px 16px;
+	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+  text-decoration: none;
+  font-size: 25px;
+  color: #AA9DB3;
+  display: block;
+}
+
+
+.sidenav a:hover {
+  color: #EDD4FF;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
 
 .header{
-    color: black;
+    color: #AA9DB3;
+	text-align: center;
     font-family: "abril-fatface";
     font-weight: 900;
-    padding-top: 40px;
-    font-size: 60px
+    padding-top: 100px;
+    font-size: 100px
 }
 
+.intro {
+	color:#B3A794;
+	font-family: 'abril-fatface';
+	font-weight: 500;
+	font-size: 50px;
+	padding-left: 50px;
+	margin-top: 75px
+}
+
+p {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: 100;
+	font-size: 25px;
+	padding-left: 50px;
+	margin-top: 50px;
+	color: #B3A794
+	
+}
 
 
