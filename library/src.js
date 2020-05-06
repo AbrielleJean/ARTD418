@@ -1,6 +1,6 @@
 // JavaScript Document
 
-const el = document.querySelector(".module img");
+const el = document.querySelector("#module");
 
 el.addEventListener("mousemove", (e) => {
   el.style.backgroundPositionX = -e.offsetX + "px";
